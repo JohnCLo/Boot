@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<SXLEMAP version="1.2">
+  <TABLE name="CANDIDATES">
+        <TABLE-PATH syntax="XPATH"> 
+           /chart/graphs/graph/value
+         </TABLE-PATH>
+
+        <COLUMN name="poll" >
+          <PATH>
+           /chart/graphs/graph/value
+            </PATH>
+            <TYPE>Numeric</TYPE>
+            <DATATYPE>STRING</DATATYPE>
+            <LENGTH>30</LENGTH>
+         </COLUMN>
+
+ 	<COLUMN name="id" retain="YES">
+          <PATH>
+           /chart/graphs/graph@gid
+            </PATH>
+            <TYPE>Numeric</TYPE>
+            <DATATYPE>STRING</DATATYPE>
+            <LENGTH>30</LENGTH>
+         </COLUMN>
+	<COLUMN name="party" retain="YES">
+          <PATH>
+           /chart/graphs/graph@color
+            </PATH>
+            <TYPE>Character</TYPE>
+            <DATATYPE>STRING</DATATYPE>
+            <LENGTH>30</LENGTH>
+         </COLUMN>
+	<COLUMN name="name" retain="YES">
+          <PATH>
+           /chart/graphs/graph@title
+            </PATH>
+            <TYPE>Character</TYPE>
+            <DATATYPE>STRING</DATATYPE>
+            <LENGTH>30</LENGTH>
+         </COLUMN>
+  </TABLE>
+  <TABLE name="DATES">
+        <TABLE-PATH syntax="XPATH"> 
+           /chart/series/value
+         </TABLE-PATH>
+
+        <COLUMN name="date"> 
+          <PATH>
+             /chart/series/value
+            </PATH>
+            <TYPE>DATE</TYPE>
+            <DATATYPE>STRING</DATATYPE>
+            <LENGTH>30</LENGTH>
+         </COLUMN>
+  </TABLE>
+</SXLEMAP>
