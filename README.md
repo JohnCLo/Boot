@@ -1,4 +1,4 @@
-# Boot
+# Boot (Public Release)
 
 Aims to extend deep web scraping capabilities to SAS 9.3 with a provided MAP file <br/>
 Demonstrates ability to perform scraped data analysis <br/>
