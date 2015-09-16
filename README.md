@@ -11,7 +11,7 @@ Demonstrates ability to perform scraped data analysis <br/>
 <b>Stable on SAS 9.3</b>
 <br/>
 <br/>
-For SAS 9.4 the PC Files Server sometimes hangs when importing over a network drive if you do not have a recent version of Microsoft Access Database engine" <br/><br/>
+For SAS 9.4 the PC Files Server sometimes hangs when importing over a network drive if you do not have a recent version of Microsoft Access Database engine <br/><br/>
 Read more about this issue:<br/>
 http://www.umass.edu/statdata/software/sas/sas_install.pdf <br/>
 http://blogs.sas.com/content/sasdummy/2012/05/01/64-bit-gotchas/ <br/>
